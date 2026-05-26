@@ -18,7 +18,8 @@ Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaix
 2. **Ambiente de Execução:** Recomendamos a utilização do Google Colab para evitar problemas de dependências.
 3. **Upload dos Dados:** Abra o arquivo `.ipynb` no Colab. Antes de executar as células, faça o upload do arquivo `.csv` no painel de arquivos lateral do Colab (ícone de pasta).
 4. **Execução:** Execute as células do notebook sequencialmente. O código está estruturado nas seguintes etapas:
-   * Carregamento e inspeção inicial dos dados.
+   * Carregamento, inspeção e limpeza de datas inválidas.
+   * Criação de novas variáveis temporais (Feature Engineering).
    * Remoção de outliers (método IQR na coluna de Valor).
    * Transformação de atributos categóricos (LabelEncoder).
    * Padronização e Normalização (StandardScaler e MinMaxScaler).
