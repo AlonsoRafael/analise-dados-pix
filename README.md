@@ -12,6 +12,7 @@
 * `comprovantes_pix_10000_anomalias.csv`: Base de dados original utilizada no projeto.
 
 ## Como reproduzir este projeto
+### Etapa 1
 Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaixo:
 
 1. **Download dos Dados:** Clone este repositório ou baixe o arquivo `comprovantes_pix_10000_anomalias.csv` diretamente desta página.
@@ -23,6 +24,7 @@ Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaix
    * Remoção de outliers (método IQR na coluna de Valor).
    * Transformação de atributos categóricos (LabelEncoder).
    * Padronização e Normalização (StandardScaler e MinMaxScaler).
+### Etapa 2
 
 ## Tecnologias Utilizadas
 * Python 3
