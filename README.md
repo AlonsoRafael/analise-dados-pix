@@ -3,9 +3,9 @@
 ## Integrantes do Grupo
 * Arthur
 * Augusto de Faria Pereira
-* Patricia
+* Patrícia Fernandes Dornelas
 * Rafael Alonso Marques
-* Rodrigo
+* Rodrigo Martins
 
 ## Estrutura do Repositório
 * `pipeline_pre_processamento.ipynb`: Notebook Jupyter contendo todas as etapas de coleta, limpeza, tratamento de atributos e padronização.
@@ -13,6 +13,9 @@
 
 ## Como reproduzir este projeto
 ### Etapa 1
+
+Vídeo: [Acessar vídeo ](https://drive.google.com/file/d/1mcrr-MDuMVSRlBoQkueJ6xNmZt1gc_kt/view?usp=sharing)
+
 Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaixo:
 
 1. **Download dos Dados:** Clone este repositório ou baixe o arquivo `comprovantes_pix_10000_anomalias.csv` diretamente desta página.
@@ -24,6 +27,7 @@ Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaix
    * Remoção de outliers (método IQR na coluna de Valor).
    * Transformação de atributos categóricos (LabelEncoder).
    * Padronização e Normalização (StandardScaler e MinMaxScaler).
+
 ### Etapa 2
 
 ## Tecnologias Utilizadas
