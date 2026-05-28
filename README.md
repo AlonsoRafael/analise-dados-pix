@@ -34,6 +34,6 @@ Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaix
 * Pandas & NumPy (Manipulação de dados)
 * Scikit-Learn (Pré-processamento)
 
-### Etapa 2
+# Etapa 2
 
 
