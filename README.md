@@ -7,15 +7,16 @@
 * Rafael Alonso Marques
 * Rodrigo Martins
 
-## Estrutura do Repositório
+# Etapa 1
+
+## Como reproduzir esta etapa
+
+### Vídeo: [Acessar vídeo ](https://drive.google.com/file/d/1mcrr-MDuMVSRlBoQkueJ6xNmZt1gc_kt/view?usp=sharing)
+
+### Estrutura da Etapa 1
 * `pipeline_pre_processamento.ipynb`: Notebook Jupyter contendo todas as etapas de coleta, limpeza, tratamento de atributos e padronização.
 * `comprovantes_pix_10000_anomalias.csv`: Base de dados original utilizada no projeto.
-
-## Como reproduzir este projeto
-### Etapa 1
-
-Vídeo: [Acessar vídeo ](https://drive.google.com/file/d/1mcrr-MDuMVSRlBoQkueJ6xNmZt1gc_kt/view?usp=sharing)
-
+  
 Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaixo:
 
 1. **Download dos Dados:** Clone este repositório ou baixe o arquivo `comprovantes_pix_10000_anomalias.csv` diretamente desta página.
@@ -28,9 +29,11 @@ Para executar o pipeline e reproduzir os nossos resultados, siga os passos abaix
    * Transformação de atributos categóricos (LabelEncoder).
    * Padronização e Normalização (StandardScaler e MinMaxScaler).
 
-### Etapa 2
-
 ## Tecnologias Utilizadas
 * Python 3
 * Pandas & NumPy (Manipulação de dados)
 * Scikit-Learn (Pré-processamento)
+
+### Etapa 2
+
+
